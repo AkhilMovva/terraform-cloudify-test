@@ -16,3 +16,11 @@ variable "instance_type" {
 variable "keyname" {
   default = "ec2_ssh1"
 }
+
+variable "AWS_ACCESS_KEY_ID"{
+  description = "AWS_ACCESS_KEY_ID"
+}
+
+variable "AWS_SECRET_ACCESS_KEY"{
+  description = "AWS_SECRET_ACCESS_KEY"
+}
